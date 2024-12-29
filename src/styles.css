@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.form-container, .preview-container {
+  flex: 1;
+  max-width: 50%;
+}
+
+form {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.resume-preview {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.resume-preview p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.resume-preview p strong {
+  color: #4CAF50;
+}
+
+.resume-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.resume-preview th, .resume-preview td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.resume-preview th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+}
+
+.resume-preview td {
+  color: #333;
+}
+
+input[type="file"] {
+  border: none;
+}
